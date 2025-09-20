@@ -3,7 +3,7 @@
 
 
 body{
-        display: flex;
+        display: grid;
         flex-direction: column;
         background-color: #e0e0e0;
         color: #333;
