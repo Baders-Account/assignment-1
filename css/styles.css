@@ -1,6 +1,95 @@
 
 
+
+
+body{
+        display: flex;
+        flex-direction: column;
+        background-color: #e0e0e0;
+        color: #333;
+        font-family: Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        
+    }
+
+
+
+main {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+
+
+.Info {
+        
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+.Info em{
+    
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.Info p{
+    margin: 0%;
+}
+
+.Info h3 {
+    font-size:30px;
+
+}
+
+.Projects ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+
+.Projects h3{
+    font-size: 30px;
+    text-align: center;
+    }
+
+.Projects li {
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+
+
+
+.Contact {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+form h3 {
+    font-size: 30px;
+    
+}
+
+
+
 .Description {
-        list-style-type: none; 
+        list-style-type: none;
+        font-weight: normal; 
+        
+    }
+
+.projectTitle  {
+        font-weight: bold;
+        
         
     }
