@@ -21,6 +21,7 @@ main {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
+        gap:25rem;
         font-family: Arial, sans-serif;
         margin: 20px;
         padding: 20px;
@@ -29,8 +30,9 @@ main {
 
 
 .Info {
+        border: 10px solid #ccc;
         
-        margin-bottom: 20px;
+        
         font-size: 20px;
         text-align: center;
     }
@@ -43,7 +45,7 @@ main {
 }
 
 .Info p{
-    margin: 0%;
+    margin: 0.25%;
 }
 
 .Info h3 {
