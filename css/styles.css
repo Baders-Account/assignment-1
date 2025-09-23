@@ -1,6 +1,28 @@
 
 
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 1.25rem;
+}
 
+
+@media (min-width: 768px) {
+  img {
+    width: 70%;   /* on tablets and up */
+  }
+}
+
+@media (min-width: 1200px) {
+  img {
+    width: 50%;   /* on desktops */
+  }
+}
 
 body{
         display: grid;
@@ -14,26 +36,42 @@ body{
         margin: 0;
         
         
+        
     }
 
 
 
 main {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
+        display: grid;
+        
         gap:50rem;
+        text-align: center;
         font-family: Arial, sans-serif;
         margin: 20px;
         padding: 20px;
         padding-top: 0%;
         background-color: #f4f4f4;
+        
     }
 
-#Intro {
+    .AboutMe{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+
+
+
+
+#intro {
+        display: flex;
+        flex-direction: column;
         text-align: center;
         font-size: 24px;
         justify-content: center;
+        align-items: center;
         
         
         
@@ -85,9 +123,9 @@ main {
 
 
 .Info {
-        border: 10px solid #ccc;
-        scroll-margin-top: 80px;
         
+        scroll-margin-top: 80px;
+        margin-top: 10%;
         font-size: 20px;
         text-align: center;
     }
