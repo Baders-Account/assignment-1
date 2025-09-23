@@ -22,12 +22,21 @@ main {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        gap:25rem;
+        gap:50rem;
         font-family: Arial, sans-serif;
         margin: 20px;
         padding: 20px;
-        padding-top: 60px;
+        padding-top: 0%;
         background-color: #f4f4f4;
+    }
+
+#Intro {
+        text-align: center;
+        font-size: 24px;
+        justify-content: center;
+        
+        
+        
     }
 
 
