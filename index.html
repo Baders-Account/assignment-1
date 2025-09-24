@@ -9,8 +9,7 @@
     <header id="header">
         <nav id="navbar">
             <ul>
-                <li><a href="#intro">Home</a></li>
-                <li><a href="#info">About Me</a></li>
+                <li><a href="#intro">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -21,57 +20,83 @@
 
     <div class="AboutMe">
 
-    <div class="Intro" id="intro">
+    <div class="section" id="intro">
     <h1>Welcome to My Web Page</h1>
     <img src="image/photo_5949590158611433956_y.jpg" alt="Bader Almutairi">
     <p>I'm Bader Almutairi</p>
     </div>
+    
 
 
-    <div class="Info" id="info">
+    <div class="section" id="info">
     <p>I'm a <strong>Computer Science </strong> student who has interest in Data Science in General.</p>
     <p>I have experience in Python, SQL, and Java. Iam also familiar with Machine Learning and Data Visualization techniques.</p>
     <em>Making sense of data through AI and Machine Learning.</em>
+    
     </div>
 
 
     </div>
 
 
-    <div class="Projects" id="projects"> 
+    <div class="section" id="projects"> 
     <h3>My Projects: </h3>
     <ul class="projectTitle">
-        <li >Project 1: Spam-Detection using NLP
+        <section>
+            <li >Project 1: Spam-Detection using NLP
             <ul>
                 <li class="Description">This project builds and evaluates machine learning models to classify emails as spam or ham.</li>
                 
             </ul>
 
         </li>
+
+        </section>
+
+        <section>
+            
         <li >Project 2: AggressiveAnalysisPremVsChamp
 
             <ul>
-                <li class="Description">This project analyzes the Aggression of Premier League teams against Championship teams in the EFL Cup.</li>
+                <li class="Description">This project analyzes the Aggression of Premier League teams in comparision of Championship teams in the EFL Cup.</li>
                      
                 
             </ul>
         </li>
+
+        </section>
+        
     </ul>
 
     </div>
 
 
 
-    <div class="Contact" id="contact">
+    <div class="section" id="contact">
     <form>
         <h3>Contact: </h3>
-        <label for="name">Name:</label><br>
+
+        <span>
+
+        <div>
+            <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
+
+        </div>
+        <div>
+            <label for="email">Email:</label><br>
         <input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br>
-        <button id="submitBtn" type="submit">Submit</button>
+
+
+        </div>
+
+        <div id="messageDiv">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button id="submitBtn" type="submit">Submit</button>
+        </div>
+
+        </span>
 
     </form>
     
