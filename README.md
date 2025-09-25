@@ -23,6 +23,9 @@ Project Structure:
 │   └── styles.css       # Stylesheet
 │── js/
 │   └── script.js        # JavaScript (theme toggle)
+|── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
 │── assets/
 │   └── image/
 │       └── photo.jpg    # Profile picture
@@ -36,4 +39,4 @@ Sections in the webpage:
     3-Contact
 
 
- Live Demo here: https://baders-account.github.io/assignment-1/ 
+Live Demo here: https://baders-account.github.io/assignment-1/ 
