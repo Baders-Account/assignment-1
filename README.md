@@ -12,7 +12,7 @@ Features:
 
     Projects Showcase: Highlights selected academic and personal projects.
 
-    Contact Form: Simple form where visitors can send their details and message.
+    Contact Form: Simple form where visitors can send their details and message (no backend).
     
     
 Project Structure:
@@ -31,6 +31,11 @@ Project Structure:
 │       └── photo.jpg    # Profile picture
   
 
+
+I used AI in: 
+    1-Debugging
+    2-Code Generation
+    3-Ducumentation
 
 
 Sections in the webpage:
