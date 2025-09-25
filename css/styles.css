@@ -282,6 +282,12 @@ em{
     
 }
 
+a{
+  color:inherit;
+  font: inherit;
+  text-decoration: none;
+}
+
 body{
         display: grid;
         grid-template-columns: 1fr ;
@@ -298,6 +304,21 @@ body{
         
     }
 
+    .dark-mode{
+        background-color: #22333B;
+        color: #EAE0D5;
+        
+    }
+    .dark-mode button:before{
+        border: #EAE0D5 solid 0.1rem;
+        
+    }
+
+    .dark-mode button:active{
+        border: #22333B solid 0.1rem;
+    }
+
+    
 
 
 main {
@@ -346,7 +367,7 @@ main {
 
     .AboutMe:hover {
         transform: scale(1.05);
-        box-shadow: 0 8px 16px #003049(0, 0, 0, 0.2);
+        box-shadow: 0 8px 16px #22333B(0, 0, 0, 0.2);
         
     }
 
@@ -422,7 +443,7 @@ main {
 
     #navbar ul li a {
         text-decoration: none;
-        color: #003049;
+        
         font-weight: bold;
     }
 
@@ -458,7 +479,7 @@ main {
     }
 
 #projects:hover {
-         box-shadow: 0 8px 16px #003049(0, 0, 0, 0.2);
+         box-shadow: 0 8px 16px #22333B(0, 0, 0, 0.2);
          transform: scale(1.05);
 }
    
@@ -523,17 +544,18 @@ form div {
 
 button {
   
-  background-color: #fafbfc;
+  background-color: inherit;
+  color: inherit;
   
   
-  border: #22333B solid 0.1rem;
   border-radius: 3rem;
   
   box-sizing: border-box;
-  color: #003049;
+  
   cursor: pointer;
  
   font-size: 1rem;
+  font-weight: bold;
   
   
   
