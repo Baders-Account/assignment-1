@@ -23,8 +23,8 @@ Use Cases:
 * Code Generation: 
 
     1- To save time, I used ChatGPT to generate a simple button structure in HTML. 
-    2- I also used it to generate the general HTML structure, including <!DOCTYPE html>, <link>, and <meta> tags.
-    3- ChatGPT provided general CSS rules for elements like <h1>, <h3>, and <p>.
+    2- I also used it to generate the general HTML structure, including !DOCTYPE html, link, and meta tags.
+    3- ChatGPT provided general CSS rules for elements like h1, h3, and p.
     4- It also generated the base structure for a form.
 
 -----------------------------------------------------------------
