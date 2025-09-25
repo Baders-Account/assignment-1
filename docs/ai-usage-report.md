@@ -17,7 +17,7 @@ Use Cases:
         I initially placed specific CSS rules outside media queries, expecting them to change with screen size. However, they were always overridden by later rules. After consulting ChatGPT, I realized that such rules need to be placed inside @media queries to properly adjust with screen width.
 
 
-
+---------------------------------------------------------------------
 
 
 * Code Generation: 
@@ -27,8 +27,7 @@ Use Cases:
     3- ChatGPT provided general CSS rules for elements like <h1>, <h3>, and <p>.
     4- It also generated the base structure for a form.
 
-
-
+-----------------------------------------------------------------
 
 * Ducumentation:
     For the documentation part of my assignment, I wrote base drafts of each required document. Since I expected grammar and structure issues, I used ChatGPT to polish and improve them for clarity.
@@ -36,7 +35,7 @@ Use Cases:
 
 
 
-
+-------------------------------------------------------------------
 * Benefits & Challenges: 
     
     Benefits:
@@ -51,6 +50,7 @@ Use Cases:
 
         Deep learning still requires time and practice. With ChatGPT, there is a risk of relying too much on quick answers, which may cause you to forget concepts if you don’t keep practicing. 
 
+------------------------------------------------------------------------
 * Learning outcomes: 
     Gained a solid understanding of how CSS Grid and Flexbox work. 
     
@@ -59,7 +59,7 @@ Use Cases:
     Observed how conflicts between CSS rules can become complicated, and learned methods to prevent them. 
 
 
-
+-------------------------------------------------------------------------
 * How I Modified AI Suggestions Responsibly:
     I verified the code before implementing it, either by relying on my own knowledge, checking the course slides, or confirming through trusted sources on Google.
 
