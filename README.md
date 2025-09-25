@@ -15,21 +15,8 @@ Features:
     Contact Form: Simple form where visitors can send their details and message (no backend).
     
     
-Project Structure:
 
-  portfolio/
-│── index.html           # Main HTML file
-│── css/
-│   └── styles.css       # Stylesheet
-│── js/
-│   └── script.js        # JavaScript (theme toggle)
-|── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
-│── assets/
-│   └── image/
-│       └── photo.jpg    # Profile picture
-  
+
 
 
 I used AI in: 
